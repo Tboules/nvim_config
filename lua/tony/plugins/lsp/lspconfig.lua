@@ -76,6 +76,10 @@ return {
       on_attach = on_attach,
     })
 
+    lspconfig["astro"].setup({
+      on_attach = on_attach,
+    })
+
     -- configure typescript server with plugin
     lspconfig["tsserver"].setup({
       capabilities = capabilities,
@@ -105,7 +109,7 @@ return {
     lspconfig["emmet_ls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
-      filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", },
+      filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
     })
 
     -- configure lua server (with special settings)
