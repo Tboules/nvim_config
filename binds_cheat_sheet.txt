@@ -1,0 +1,38 @@
+# base commands
+
+equal splits -- >se
+close split -- >sx
+maximize split -- >sm
+
+new tab -- >to
+close tab -- >tx
+open buffer in tab -- >tf
+next and prev tab -- >tn / >tp
+
+# telescope commands
+
+find files -- >ff
+find old -- >fr
+search string -- >fs
+search under cursor -- >fc
+
+# lsp commands
+
+show refs -- gR
+show defs -- gD
+show lsp defs -- gd
+show implementation -- gi
+type defs -- gt
+code actions -- >ca
+smart rename -- >rn
+
+show file diagnostics -- >D
+show line diagnostics -- >d
+prev diagnostics -- [d
+next diagnostics -- ]d
+
+show docs -- K
+
+# formatting
+
+format doc -- >mp
