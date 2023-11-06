@@ -32,3 +32,4 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- vim commands
 keymap.set("n", "<leader>pv", vim.cmd.Ex)
+keymap.set("i", "<C-l>", "<esc>la")

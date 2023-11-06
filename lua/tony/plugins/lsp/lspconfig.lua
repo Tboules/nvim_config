@@ -81,6 +81,11 @@ return {
       on_attach = on_attach,
     })
 
+    lspconfig["gopls"].setup({
+      on_attach = on_attach,
+      capabilities = capabilities,
+    })
+
     lspconfig["astro"].setup({
       on_attach = on_attach,
     })
